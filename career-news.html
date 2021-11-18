@@ -114,7 +114,7 @@
                                 </a> 
                             </li> 
                             <li class="nav-item">
-                                <a href="press-release.html" class="nav-link active">
+                                <a href="press-release.html" class="nav-link">
                                     <i class="nav-icon far fa-newspaper"></i> 
                                     <p>ข่าวสารประชาสัมพันธ์</p>
                                 </a> 
@@ -173,23 +173,23 @@
                                 </a> 
                             </li> 
                             <li class="nav-item">
-                                <a href="career-news.html" class="nav-link">
+                                <a href="career-news.html" class="nav-link active">
                                     <i class="nav-icon fal fa-newspaper"></i> 
                                     <p>ข่าวอบรมหลักสูตรอาชีพ</p>
                                 </a> 
                             </li> 
                             <li class="nav-item">
-                                <a href="career-news.html" class="nav-link">
+                                <a href="gallery.html" class="nav-link">
                                     <i class="nav-icon fas fa-photo-video"></i> 
                                     <p>จัดการข้อมูลแกลเลอรี่</p>
                                 </a> 
                             </li> 
                             <li class="nav-item">
-                                <a href="gallery.html" class="nav-link">
+                                <a href="alumni-glory.html" class="nav-link">
                                     <i class="nav-icon fas fa-users-cog"></i> 
                                     <p>จัดการข้อมูลศิษย์เก่าดีเด่น</p> 
                                 </a> 
-                            </li> 
+                            </li>  
                             <li class="nav-item">
                                 <a href="vender.html" class="nav-link">
                                     <i class="nav-icon far fa-user-circle"></i> 
@@ -235,8 +235,8 @@
                         <div class="row mb-2">
                             <div class="col-sm-6">
                                 <h1 class="m-0">
-                                    <strong>ข่าวสารประชาสัมพันธ์</strong> 
-                                    <button type="button" class="btn  btn-success" data-toggle="modal" data-target="#modalAdd"><i class="far fa-plus"></i> สร้างข่าวประชาสัมพันธ์</button> 
+                                    <strong>ข่าวอบรมหลักสูตรอาชีพ</strong> 
+                                    <button type="button" class="btn  btn-success" data-toggle="modal" data-target="#modalAdd"><i class="far fa-plus"></i> สร้างข่าวอบรมหลักสูตรอาชีพ</button> 
                                 </h1> 
                             </div>  
                         </div> 
@@ -265,9 +265,11 @@
                                             <thead>
                                                 <tr>
                                                     <th>#</th>
-                                                    <th>หัวข้อข่าว</th>
+                                                    <th>หัวข้อ</th>
                                                     <th>ผู้สร้าง</th>
                                                     <th>วันที่สร้าง</th>
+                                                    <th>วันที่เริ่มกิจกรรม</th>
+                                                    <th>วันที่สิ้นสุดกิจกรรม</th>
                                                     <th>รูป</th>  
                                                     <th>&nbsp;</th>
                                                 </tr>
@@ -281,6 +283,8 @@
                                                     <td>
                                                         อดิศร ศรีสุธรรม
                                                     </td>
+                                                    <td>10/11/2564</td>
+                                                    <td>10/11/2564</td>
                                                     <td>10/11/2564</td>
                                                     <td><div class="img" style="background: url(images/g1.jpg);"></div></td>
                                                     <td>  
@@ -308,6 +312,8 @@
                                                         อดิศร ศรีสุธรรม
                                                     </td>
                                                     <td>10/11/2564</td>
+                                                    <td>10/11/2564</td>
+                                                    <td>10/11/2564</td>
                                                     <td><div class="img" style="background: url(images/g1.jpg);"></div></td>
                                                     <td>  
                                                         <button type="button" class="btn btn-secondary btn-block btn-sm btn-flat">
@@ -334,6 +340,8 @@
                                                         อดิศร ศรีสุธรรม
                                                     </td>
                                                     <td>10/11/2564</td>
+                                                    <td>10/11/2564</td>
+                                                    <td>10/11/2564</td>
                                                     <td><div class="img" style="background: url(images/g1.jpg);"></div></td>
                                                     <td>  
                                                         <button type="button" class="btn btn-secondary btn-block btn-sm btn-flat">
@@ -359,6 +367,8 @@
                                                     <td>
                                                         อดิศร ศรีสุธรรม
                                                     </td>
+                                                    <td>10/11/2564</td>
+                                                    <td>10/11/2564</td>
                                                     <td>10/11/2564</td>
                                                     <td><div class="img" style="background: url(images/g1.jpg);"></div></td>
                                                     <td>  
@@ -679,7 +689,7 @@
                 <div class="modal-content">
                     <!-- Modal Header -->
                     <div class="modal-header">
-                        <h4 class="modal-title"><strong>สร้างข่าวประชาสัมพันธ์</strong></h4>
+                        <h4 class="modal-title"><strong>สร้างข่าวอบรมหลักสูตรอาชีพ</strong></h4>
                         <button type="button" class="close" data-dismiss="modal">&times;</button>
                     </div> 
                     <div class="modal-body">
@@ -687,7 +697,7 @@
                             <form action="">
                                 <div class="form-group row">
                                     <div class="col-xl-12">
-                                        <label for="">หัวข้อข่าว</label>
+                                        <label for="">หัวข้อ</label>
                                         <input type="text" class="form-control" name="" id="">
                                     </div> 
                                 </div> 
@@ -705,12 +715,12 @@
                                 </div> 
                                 <div class="form-group row">
                                     <div class="col-xl-6">
-                                        <label for="">วันที่เริ่มข่าว</label>
+                                        <label for="">วันที่เริ่มกิจกรรม</label>
                                         <input type="text" class="form-control date"  >
                                     </div> 
                                     <div class="col-xl-6">
-                                        <label for="">วันที่สิ้นสุดข่าว</label>
-                                        <input type="text" class="form-control date" name="" id="">
+                                        <label for="">สถานที่</label>
+                                        <input type="text" class="form-control" name="" id="">
                                     </div> 
                                 </div> 
                                 <div class="form-group">
