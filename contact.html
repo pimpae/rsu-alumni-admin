@@ -132,7 +132,7 @@
                                 </a> 
                             </li> 
                             <li class="nav-item">
-                                <a href="alumni-list.html" class="nav-link active">
+                                <a href="alumni-list.html" class="nav-link">
                                     <i class="nav-icon fas fa-list"></i> 
                                     <p>รายชื่อศิษย์เก่า</p>
                                 </a> 
@@ -196,7 +196,7 @@
                                     <p>จัดการข้อมูล Vender </p>
                                 </a> 
                             </li>  
-                            <li class="nav-item">
+                            <li class="nav-item menu-is-opening menu-open">
                                 <a href="#" class="nav-link">
                                     <i class="nav-icon fas fa-edit"></i>
                                     <p>
@@ -206,7 +206,7 @@
                                 </a>
                                 <ul class="nav nav-treeview">  
                                     <li class="nav-item">
-                                        <a href="contact.html" class="nav-link">
+                                        <a href="contact.html" class="nav-link active">
                                             <i class="fas fa-headset"></i> 
                                             <p>จัดการข้อมูลการติดต่อ</p> 
                                         </a> 
@@ -229,7 +229,7 @@
                         <div class="row mb-2">
                             <div class="col-sm-6">
                                 <h1 class="m-0">
-                                    <strong>ค้นหารายชื่อศิษย์เก่า</strong>  
+                                    <strong>จัดการข้อมูลการติดต่อ</strong>  
                                 </h1> 
                             </div>  
                         </div> 
@@ -237,33 +237,54 @@
                 </div>  
                 <section class="content">
                     <div class="container-fluid">
-                        <div class="div-box card-outline card-info p-4">
-                            <form action="">
-                                <div class="form-group row">
-                                    <div class="col-2">
-                                        <label for="">ปีการศึกษาที่จบ</label>
-                                        <input type="text" class="form-control" name="" id="">
-                                    </div>
-                                    <div class="col-2">
-                                        <label for="">คณะ</label>
-                                        <input type="text" class="form-control" name="" id="">
-                                    </div>
-                                    <div class="col-2">
-                                        <label for="">สาขา</label>
-                                        <input type="text" class="form-control" name="" id="">
-                                    </div>
-                                    <div class="col-2">
-                                        <label for="">ชื่อ-นามสกุล</label>
-                                        <input type="text" class="form-control" name="" id="">
-                                    </div>
-                                    <div class="col-2">
-                                        <label for="">&nbsp;</label>
-                                        <button class="btn btn-info btn-block btn-flat"><i class="far fa-search"></i> ค้นหา</button>
-                                    </div>
-                                </div>
+                        <div class="col-xl-12">
+                            <div class="row">
+                                <div class="col-xl-4 div-box card-outline card-info p-4">
+                                    <form action="">
+                                        <div class="form-group row">
+                                            <div class="col-12">
+                                                <label for="">เบอร์โทรศัพท์</label>
+                                                <input type="text" class="form-control" name="" id="">
+                                            </div> 
+                                        </div>
+                                        <div class="form-group row">
+                                            <div class="col-12">
+                                                <label for="">อีเมล</label>
+                                                <input type="text" class="form-control" name="" id="">
+                                            </div> 
+                                        </div>
+                                        <div class="form-group row">
+                                            <div class="col-12">
+                                                <label for="">ที่อยู่</label>
+                                                <input type="text" class="form-control" name="" id="">
+                                            </div> 
+                                        </div>
+                                        <div class="form-group row">
+                                            <div class="col-12">
+                                                <label for="">ลิงค์สมาคมศิษย์เก่า</label>
+                                                <input type="text" class="form-control" name="" id="">
+                                            </div> 
+                                        </div>
 
-                                <hr>
-                            </form>
+
+                                        <div class="form-group">
+                                            <button type="button" class="btn btn-danger">
+                                                <i class="fas fa-file-upload"></i> เพิ่มรูปแบนเนอร์สมาคมศิษย์เก่า
+                                            </button>
+                                        </div>  
+
+                                        <hr>
+
+                                        <div class="col-12 text-center">
+                                            <button type="button" class="btn btn-success">บันทึก</button>
+                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">ยกเลิก</button>
+                                        </div>
+
+
+                                        
+                                    </form>
+                                </div>
+                            </div>
                         </div>
                     </div> 
                 </section> 
