@@ -120,13 +120,13 @@
                                 </a> 
                             </li> 
                             <li class="nav-item">
-                                <a href="event-news.html" class="nav-link">
+                                <a href="event-news.html" class="nav-link ">
                                     <i class="nav-icon far fa-image"></i> 
                                     <p>ข่าวสารกิจกรรม</p>
                                 </a> 
                             </li> 
                             <li class="nav-item">
-                                <a href="recruitment.html" class="nav-link">
+                                <a href="recruitment.html" class="nav-link active">
                                     <i class="nav-icon fas fa-file-alt"></i> 
                                     <p>การรับสมัครงาน</p>
                                 </a> 
@@ -185,7 +185,7 @@
                                 </a> 
                             </li> 
                             <li class="nav-item">
-                                <a href="alumni-glory.html" class="nav-link active">
+                                <a href="alumni-glory.html" class="nav-link">
                                     <i class="nav-icon fas fa-users-cog"></i> 
                                     <p>จัดการข้อมูลศิษย์เก่าดีเด่น</p> 
                                 </a> 
@@ -229,8 +229,7 @@
                         <div class="row mb-2">
                             <div class="col-sm-6">
                                 <h1 class="m-0">
-                                    <strong>จัดการข้อมูลศิษย์เก่าดีเด่น  </strong> 
-                                    <a href="form-alumni-glory.html" class="btn btn-success btn-flat"><i class="far fa-plus"></i> เพิ่มข้อมูลศิษยเก่าดีเด่น </a> 
+                                    <strong>การรับสมัครงาน</strong>  
                                 </h1> 
                             </div>  
                         </div> 
@@ -240,182 +239,135 @@
                     <div class="container-fluid">
                         <div class="div-box card-outline card-info p-4">
                   
-                            <ul class="nav nav-tabs" role="tablist">
-                                <li class="nav-item">
-                                    <a class="nav-link active" href="#tab1" role="tab" data-toggle="tab">รายการที่อนุมัติแล้ว</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#tab2" role="tab" data-toggle="tab">รายการรออนุมัติ <span class="right badge badge-danger">3</span></a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#tab3" role="tab" data-toggle="tab">รายการที่ยกเลิก</a>
-                                </li>
-                            </ul> 
+                            <div class="col">
+                                <div class="row justify-content-center">
+                                    <div class="col-xl-6 col-12">
+                                        <form action="">
+                                            <div class="form-group row">
+                                                <div class="col-xl-6">
+                                                    <label for="">ชื่อบริษัท / หน่วยงาน ที่รับสมัคร</label>
+                                                    <input type="text" class="form-control"  >
+                                                </div> 
+                                                <div class="col-xl-6">
+                                                    <label for="">ประเภทธุรกิจ</label>
+                                                    <input type="text" class="form-control" name="" id="">
+                                                </div> 
+                                            </div> 
+                                            <div class="form-group row">
+                                                <div class="col-xl-6">
+                                                    <label for="">ตำแหน่ง </label>
+                                                    <input type="text" class="form-control"  >
+                                                </div> 
+                                                <div class="col-xl-6">
+                                                    <label for="">จำนวนที่รับสมัคร</label>
+                                                    <input type="text" class="form-control" name="" id="">
+                                                </div> 
+                                            </div> 
+                                            <div class="form-group row">
+                                                <div class="col-xl-6">
+                                                    <label for="">ลักษณะงาน</label>
+                                                    <input type="text" class="form-control"  >
+                                                </div> 
+                                                <div class="col-xl-6">
+                                                    <label for="">คุณสมบัติ </label>
+                                                    <input type="text" class="form-control" name="" id="">
+                                                </div> 
+                                            </div> 
+                                            <div class="form-group row">
+                                                <div class="col-xl-6">
+                                                    <label for="">เพศ </label>
+                                                    <input type="text" class="form-control"  >
+                                                </div> 
+                                                <div class="col-xl-6">
+                                                    <label for="">อายุ  </label>
+                                                    <input type="text" class="form-control" name="" id="">
+                                                </div> 
+                                            </div> 
+                                            <div class="form-group row">
+                                                <div class="col-xl-6">
+                                                    <label for="">วุฒิการศึกษา </label>
+                                                    <input type="text" class="form-control"  >
+                                                </div> 
+                                                <div class="col-xl-6">
+                                                    <label for="">ประสบการณ์</label>
+                                                    <input type="text" class="form-control" name="" id="">
+                                                </div> 
+                                            </div> 
+                                            <div class="form-group row">
+                                                <div class="col-xl-12">
+                                                    <label for="">คุณสมบัติอื่นๆ </label>
+                                                    <textarea class="form-control" name="" id="" cols="30" rows="4"></textarea>
+                                                </div> 
+                                            </div> 
             
-                            <div class="tab-content">
-                                <div role="tabpanel" class="tab-pane fade show active" id="tab1">
-                                    <div class="col-12 table-responsive">
-                                        <table id="tb-job" class="table table-striped  " style="width:100%">
-                                            <thead>
-                                                <tr>
-                                                    <th>#</th>
-                                                    <th>ชื่อ</th>
-                                                    <th>คณะ / สาขา</th>
-                                                    <th>ตำแหน่งงานปัจจุบัน</th>
-                                                    <th>บริษัท/หน่วยงาน</th>
-                                                    <th>ประเภทรางวัล</th>
-                                                    <th>ผู้สร้าง</th>
-                                                    <th>วันที่สร้าง</th> 
-                                                    <th>&nbsp;</th>
-                                                </tr>
-                                            </thead>
-                                            <tbody>
-                                                <tr> 
-                                                    <td>1</td>
-                                                    <td>อดิศร ศรีสุธรรม</td>
-                                                    <td>คณะบริหาร สาขาบริหารธุรกิจอินเตอร์</td>
-                                                    <td>กรรมการผู้จัดการ </td>
-                                                    <td>บริษัท ไทยเทค จำกัด</td>
-                                                    <td>ผู้ที่ประสบผลสำเร็จ สาขาวิชาชีพ</td> 
-                                                    <td>อดิศร ศรีสุธรรม</td>
-                                                    <td>10/11/2564</td> 
-                                                    <td>  
-                                                        <button type="button" class="btn btn-secondary   btn-sm btn-flat">
-                                                            <i class="fas fa-eye"></i>  
-                                                        </button>  
-                                                        <button type="button" class="btn btn-danger   btn-sm btn-flat">
-                                                            <i class="far fa-edit"></i>
-                                                        </button>      
-                                                        <div class="custom-control custom-switch fl">
-                                                            <input type="checkbox" class="custom-control-input" id="customSwitch1" checked>
-                                                            <label class="custom-control-label" for="customSwitch1"> </label>
-                                                        </div>
-                                                    </td>   
-                                                </tr>                                                          
-                                            </tbody> 
-                                        </table>
+            
+                                            <div class="form-group row">
+                                                <div class="col-xl-6">
+                                                    <label for="">ค่าจ้าง </label>
+                                                    <input type="text" class="form-control"  >
+                                                </div> 
+                                                <div class="col-xl-6">
+                                                    <label for="">สถานที่ทำงาน </label>
+                                                    <input type="text" class="form-control" name="" id="">
+                                                </div> 
+                                            </div> 
+                                            <div class="form-group row">
+                                                <div class="col-xl-6">
+                                                    <label for="">วันที่สิ้นสุด </label>
+                                                    <input type="text" class="form-control"  >
+                                                </div> 
+                                                <div class="col-xl-6">
+                                                    <label for="">ชื่อผู้ติดต่อ</label>
+                                                    <input type="text" class="form-control" name="" id="">
+                                                </div> 
+                                            </div> 
+                                            <div class="form-group row">
+                                                <div class="col-xl-6">
+                                                    <label for="">เบอร์โทรศัพท์หน่วยงาน </label>
+                                                    <input type="text" class="form-control"  >
+                                                </div> 
+                                                <div class="col-xl-6">
+                                                    <label for="">เบอร์โทรศัพท์มือถือ </label>
+                                                    <input type="text" class="form-control" name="" id="">
+                                                </div> 
+                                            </div> 
+                                            
+                                            <div class="form-group row">
+                                                <div class="col-xl-6">
+                                                    <label for="">อีเมล </label>
+                                                    <input type="text" class="form-control"  >
+                                                </div> 
+                                                <div class="col-xl-6">
+                                                    <label for="">LineID</label>
+                                                    <input type="text" class="form-control" name="" id="">
+                                                </div> 
+                                            </div> 
+            
+                                            <div class="form-group">
+                                                <button type="button" class="btn btn-danger">
+                                                    <i class="fas fa-file-upload"></i> อัพโหลดไฟล์
+                                                </button>
+                                            </div> 
+
+                                            <div class="col-12 p-0"> 
+                                                <hr>
+                                            </div>
+                                            
+                                            <div class="form-group row">
+                                                <div class="col-xl-2 col-12"></div> 
+                                                <div class="col-xl-6 col-12"> 
+                                                    <button type="button" class="btn btn-success">บันทึก</button>
+                                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">ยกเลิก</button>
+                                                </div>
+                                            </div>   
+
+
+                                        </form>
+
                                     </div>
                                 </div>
-                                <div role="tabpanel" class="tab-pane fade" id="tab2">
-                                    <div class="col-12 table-responsive">
-                                        <table id="tb-job" class="table table-striped  " style="width:100%">
-                                            <thead>
-                                                <tr>
-                                                    <th>#</th>
-                                                    <th>หัวข้อข่าว</th>
-                                                    <th>ผู้สร้าง</th>
-                                                    <th>วันที่สร้าง</th>
-                                                    <th>รูป</th>  
-                                                    <th>&nbsp;</th>
-                                                </tr>
-                                            </thead>
-                                            <tbody>
-                                                <tr> 
-                                                    <td>1</td>
-                                                    <td>
-                                                        ม.รังสิต เปิดวันรับสมัครนักศึกษาใหม่ ป.ตรี (ยื่น GPA.) ตั้งเเต่วันที่ 20
-                                                    </td>
-                                                    <td>
-                                                        อดิศร ศรีสุธรรม
-                                                    </td>
-                                                    <td>10/11/2564</td>
-                                                    <td><div class="img" style="background: url(images/g1.jpg);"></div></td>
-                                                    <td>                                                         
-                                                        <button type="button" class="btn btn-success btn-block btn-sm btn-flat" data-toggle="modal" data-target="#modalAprove">
-                                                            <i class="far fa-check"></i> อนุมัติ
-                                                        </button>
-                                                        <button type="button" class="btn btn-danger btn-block btn-sm btn-flat" data-toggle="modal" data-target="#modalDisapproved">
-                                                            <i class="fas fa-times"></i> ไม่อนุมัติ
-                                                        </button>  
-                                                        <button type="button" class="btn btn-secondary btn-block btn-sm btn-flat" data-toggle="modal" data-target="#modalView">
-                                                            <i class="fas fa-eye"></i> ดูรายละเอียด
-                                                        </button>                                                 
-                                                    </td>   
-                                                </tr> 
-                                                <tr> 
-                                                    <td>2</td>
-                                                    <td>
-                                                        ม.รังสิต เปิดวันรับสมัครนักศึกษาใหม่ ป.ตรี (ยื่น GPA.) ตั้งเเต่วันที่ 20
-                                                    </td>
-                                                    <td>
-                                                        อดิศร ศรีสุธรรม
-                                                    </td>
-                                                    <td>10/11/2564</td>
-                                                    <td><div class="img" style="background: url(images/g1.jpg);"></div></td>
-                                                    <td>                                                         
-                                                        <button type="button" class="btn btn-success btn-block btn-sm btn-flat" data-toggle="modal" data-target="#modalAprove">
-                                                            <i class="far fa-check"></i> อนุมัติ
-                                                        </button>
-                                                        <button type="button" class="btn btn-danger btn-block btn-sm btn-flat" data-toggle="modal" data-target="#modalDisapproved">
-                                                            <i class="fas fa-times"></i> ไม่อนุมัติ
-                                                        </button>  
-                                                        <button type="button" class="btn btn-secondary btn-block btn-sm btn-flat" data-toggle="modal" data-target="#modalView">
-                                                            <i class="fas fa-eye"></i> ดูรายละเอียด
-                                                        </button>                                                 
-                                                    </td>    
-                                                </tr> 
-                                                <tr> 
-                                                    <td>3</td>
-                                                    <td>
-                                                        ม.รังสิต เปิดวันรับสมัครนักศึกษาใหม่ ป.ตรี (ยื่น GPA.) ตั้งเเต่วันที่ 20
-                                                    </td>
-                                                    <td>
-                                                        อดิศร ศรีสุธรรม
-                                                    </td>
-                                                    <td>10/11/2564</td>
-                                                    <td><div class="img" style="background: url(images/g1.jpg);"></div></td>
-                                                    <td>                                                         
-                                                        <button type="button" class="btn btn-success btn-block btn-sm btn-flat" data-toggle="modal" data-target="#modalAprove">
-                                                            <i class="far fa-check"></i> อนุมัติ
-                                                        </button>
-                                                        <button type="button" class="btn btn-danger btn-block btn-sm btn-flat" data-toggle="modal" data-target="#modalDisapproved">
-                                                            <i class="fas fa-times"></i> ไม่อนุมัติ
-                                                        </button>  
-                                                        <button type="button" class="btn btn-secondary btn-block btn-sm btn-flat" data-toggle="modal" data-target="#modalView">
-                                                            <i class="fas fa-eye"></i> ดูรายละเอียด
-                                                        </button>                                                 
-                                                    </td>     
-                                                </tr> 
-                                                    
-                                            </tbody> 
-                                        </table>
-                                    </div>
-                                </div>
-                                <div role="tabpanel" class="tab-pane fade" id="tab3">
-                                    <div class="col-12 table-responsive">
-                                        <table id="tb-job" class="table table-striped  " style="width:100%">
-                                            <thead>
-                                                <tr>
-                                                    <th>#</th>
-                                                    <th>หัวข้อข่าว</th>
-                                                    <th>ผู้สร้าง</th>
-                                                    <th>วันที่สร้าง</th>
-                                                    <th>รูป</th>  
-                                                    <th>&nbsp;</th>
-                                                </tr>
-                                            </thead>
-                                            <tbody>
-                                                <tr> 
-                                                    <td>1</td>
-                                                    <td>
-                                                        ม.รังสิต เปิดวันรับสมัครนักศึกษาใหม่ ป.ตรี (ยื่น GPA.) ตั้งเเต่วันที่ 20
-                                                    </td>
-                                                    <td>
-                                                        อดิศร ศรีสุธรรม
-                                                    </td>
-                                                    <td>10/11/2564</td>
-                                                    <td><div class="img" style="background: url(images/g1.jpg);"></div></td>
-                                                    <td>  
-                                                        <button type="button" class="btn btn-primary btn-block btn-sm btn-flat">
-                                                            <i class="fas fa-redo-alt"></i> Restore 
-                                                        </button>   
-                                                    </td>   
-                                                </tr>                                                       
-                                            </tbody> 
-                                        </table>
-                                    </div>
-                                </div>
-                            </div>       
+                            </div>
+ 
                         </div>
                     </div> 
                 </section> 
@@ -590,11 +542,11 @@
         </div>
 
         <div class="modal fade" id="modalAdd">
-            <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-dialog modal-lg">
                 <div class="modal-content">
                     <!-- Modal Header -->
                     <div class="modal-header">
-                        <h4 class="modal-title"><strong>เพิ่มข้อมูลศิษยเก่าดีเด่น</strong></h4>
+                        <h4 class="modal-title"><strong>สร้างประกาศรับสมัครงาน</strong></h4>
                         <button type="button" class="close" data-dismiss="modal">&times;</button>
                     </div> 
                     <div class="modal-body">
@@ -602,92 +554,107 @@
                             <form action="">
                                 <div class="form-group row">
                                     <div class="col-xl-6">
-                                        <label for="">ชื่อ</label>
-                                        <input type="text" class="form-control" name="" id="">
+                                        <label for="">ชื่อบริษัท / หน่วยงาน ที่รับสมัคร</label>
+                                        <input type="text" class="form-control"  >
                                     </div> 
                                     <div class="col-xl-6">
-                                        <label for="">ปีที่จบการศึกษา</label>
-                                        <select class="selectpicker" title="ปีที่จบการศึกษา" data-show-subtext="true" data-live-search="true" name="sel1" id="sel1"> 
-                                            <option>2554</option>
-                                            <option>2555</option>
-                                            <option>2556</option>
-                                            <option>2557</option>
-                                            <option>2558</option>
-                                        </select>
-                                    </div>
-                                </div> 
-                                <div class="form-group row">
-                                    <div class="col-xl-6">
-                                        <label for="">คณะ</label>
-                                        <select class="selectpicker" title="คณะ" data-show-subtext="true" data-live-search="true" name="sel1" id="sel1"> 
-                                            <option>2554</option>
-                                            <option>2555</option>
-                                            <option>2556</option>
-                                            <option>2557</option>
-                                            <option>2558</option>
-                                        </select>
-                                    </div> 
-                                    <div class="col-xl-6">
-                                        <label for="">สาขา</label>
-                                        <select class="selectpicker" title="สาขา" data-show-subtext="true" data-live-search="true" name="sel1" id="sel1"> 
-                                            <option>2554</option>
-                                            <option>2555</option>
-                                            <option>2556</option>
-                                            <option>2557</option>
-                                            <option>2558</option>
-                                        </select>
-                                    </div>
-                                </div> 
-                                <div class="form-group row">
-                                    <div class="col-xl-6">
-                                        <label for="">ตำแหน่งงานปัจจุบัน</label>
-                                        <input type="text" class="form-control" name="" id="">
-                                    </div> 
-                                    <div class="col-xl-6">
-                                        <label for="">บริษัท / หน่วยงาน</label>
+                                        <label for="">ประเภทธุรกิจ</label>
                                         <input type="text" class="form-control" name="" id="">
                                     </div> 
                                 </div> 
                                 <div class="form-group row">
                                     <div class="col-xl-6">
-                                        <label for="">ระดับการศึกษา</label>
-                                        <select class="selectpicker" title="สาขา" data-show-subtext="true" data-live-search="true" name="sel1" id="sel1"> 
-                                            <option>2554</option>
-                                            <option>2555</option>
-                                            <option>2556</option>
-                                            <option>2557</option>
-                                            <option>2558</option>
-                                        </select>
+                                        <label for="">ตำแหน่ง </label>
+                                        <input type="text" class="form-control"  >
                                     </div> 
                                     <div class="col-xl-6">
-                                        <label for="">วันที่ได้รับรางวัล</label>
+                                        <label for="">จำนวนที่รับสมัคร</label>
                                         <input type="text" class="form-control" name="" id="">
                                     </div> 
                                 </div> 
                                 <div class="form-group row">
                                     <div class="col-xl-6">
-                                        <label for="">ประเภทรางวัล</label>
-                                        <select class="selectpicker" title="สาขา" data-show-subtext="true" data-live-search="true" name="award_type_name" id="award_type_name"> 
-                                            <option value="1">ศิษย์เก่าที่ประสบความสำเร็จด้านวิชาชีพ  </option>
-                                            <option value="2">สร้างชื่อเสียงและเกียรติยศแก่งสังคม หรือประเทศชาติ</option>
-                                            <option value="3">สร้างชื่อเสียงเกียรติยศสังคมและมหาวิทยาลัยรังสิต</option> 
-                                        </select>
-                                    </div>  
-                                    <div class="col-xl-6 profess">
-                                        <label for="">ด้านวิชาชีพ  </label>
-                                        <select class="selectpicker" title="สาขา" data-show-subtext="true" data-live-search="true" name="profess_type_name" id="profess_type_name"> 
-                                            <option value="1">งานราชการ</option> 
-                                            <option value="1">รัฐวิสาหกิจ</option> 
-                                            <option value="1">องค์การมหาชน </option> 
-                                            <option value="1">นักคิด/นักวิชาการและวิจัย </option> 
-                                            <option value="1">นักธุรกิจภาคเอกชน </option> 
-                                            <option value="1">ด้านศิลปวัฒนธรรม สิ่งแวดล้อมและนวัตกรรม</option> 
-                                        </select>
-                                    </div>  
-                                </div>  
-                                <div class="form-group"> 
-                                    <button type="button" class="btn btn-info">
-                                        <i class="fas fa-file-upload"></i> อัพโหลดรูป
+                                        <label for="">ลักษณะงาน</label>
+                                        <input type="text" class="form-control"  >
+                                    </div> 
+                                    <div class="col-xl-6">
+                                        <label for="">คุณสมบัติ </label>
+                                        <input type="text" class="form-control" name="" id="">
+                                    </div> 
+                                </div> 
+                                <div class="form-group row">
+                                    <div class="col-xl-6">
+                                        <label for="">เพศ </label>
+                                        <input type="text" class="form-control"  >
+                                    </div> 
+                                    <div class="col-xl-6">
+                                        <label for="">อายุ  </label>
+                                        <input type="text" class="form-control" name="" id="">
+                                    </div> 
+                                </div> 
+                                <div class="form-group row">
+                                    <div class="col-xl-6">
+                                        <label for="">วุฒิการศึกษา </label>
+                                        <input type="text" class="form-control"  >
+                                    </div> 
+                                    <div class="col-xl-6">
+                                        <label for="">ประสบการณ์</label>
+                                        <input type="text" class="form-control" name="" id="">
+                                    </div> 
+                                </div> 
+                                <div class="form-group row">
+                                    <div class="col-xl-12">
+                                        <label for="">คุณสมบัติอื่นๆ </label>
+                                        <textarea class="form-control" name="" id="" cols="30" rows="4"></textarea>
+                                    </div> 
+                                </div> 
+
+
+                                <div class="form-group row">
+                                    <div class="col-xl-6">
+                                        <label for="">ค่าจ้าง </label>
+                                        <input type="text" class="form-control"  >
+                                    </div> 
+                                    <div class="col-xl-6">
+                                        <label for="">สถานที่ทำงาน </label>
+                                        <input type="text" class="form-control" name="" id="">
+                                    </div> 
+                                </div> 
+                                <div class="form-group row">
+                                    <div class="col-xl-6">
+                                        <label for="">วันที่สิ้นสุด </label>
+                                        <input type="text" class="form-control"  >
+                                    </div> 
+                                    <div class="col-xl-6">
+                                        <label for="">ชื่อผู้ติดต่อ</label>
+                                        <input type="text" class="form-control" name="" id="">
+                                    </div> 
+                                </div> 
+                                <div class="form-group row">
+                                    <div class="col-xl-6">
+                                        <label for="">เบอร์โทรศัพท์หน่วยงาน </label>
+                                        <input type="text" class="form-control"  >
+                                    </div> 
+                                    <div class="col-xl-6">
+                                        <label for="">เบอร์โทรศัพท์มือถือ </label>
+                                        <input type="text" class="form-control" name="" id="">
+                                    </div> 
+                                </div> 
+                                
+                                <div class="form-group row">
+                                    <div class="col-xl-6">
+                                        <label for="">อีเมล </label>
+                                        <input type="text" class="form-control"  >
+                                    </div> 
+                                    <div class="col-xl-6">
+                                        <label for="">LineID</label>
+                                        <input type="text" class="form-control" name="" id="">
+                                    </div> 
+                                </div> 
+
+                                <div class="form-group">
+                                    <button type="button" class="btn btn-danger">
+                                        <i class="fas fa-file-upload"></i> อัพโหลดไฟล์
                                     </button>
                                 </div> 
                             </form>
@@ -702,113 +669,6 @@
                 </div>
             </div>
         </div>
-
-        <div class="modal fade" id="modalAdd2">
-            <div class="modal-dialog modal-dialog-centered modal-lg">
-                <div class="modal-content">
-                    <!-- Modal Header -->
-                    <div class="modal-header">
-                        <h4 class="modal-title"><strong>จัดการประเภทรางวัล</strong></h4>
-                        <button type="button" class="close" data-dismiss="modal">&times;</button>
-                    </div> 
-                    <div class="modal-body">
-                        <div class="col"> 
-                            <form action="">
-                                <div class="form-group row">
-                                    <div class="col-1">1. </div>
-                                    <div class="col-8">
-                                        <input type="text" class="form-control" name="" id="" value="สร้างชื่อเสียงและเกียรติยศแก่งสังคม หรือประเทศชาติ">
-                                    </div>
-                                    <div class="col-2"> 
-                                        <div class="custom-control custom-switch fl">
-                                            <input type="checkbox" class="custom-control-input" id="customSwitch1" checked>
-                                            <label class="custom-control-label" for="customSwitch1"> </label>
-                                        </div>
-                                        <button type="button" class="btn btn-info btn-sm btn-flat">
-                                            <i class="fas fa-plus"></i>   เพิ่ม
-                                        </button>  
-                                    </div> 
-                                </div>  
-                                <div class="form-group row">
-                                    <div class="col-1">2. </div>
-                                    <div class="col-8">
-                                        <input type="text" class="form-control" name="" id="" value="สร้างคุณประโยชน์เพื่อสังคม และมหาวิทยาลัยรังสิต">
-                                    </div>
-                                    <div class="col-2"> 
-                                        <div class="custom-control custom-switch fl">
-                                            <input type="checkbox" class="custom-control-input" id="customSwitch1" checked>
-                                            <label class="custom-control-label" for="customSwitch1"> </label>
-                                        </div>
-                                        <button type="button" class="btn btn-info btn-sm btn-flat">
-                                            <i class="fas fa-plus"></i>   เพิ่ม
-                                        </button>  
-                                    </div> 
-                                </div>  
-                                <div class="form-group row">
-                                    <div class="col-1">3. </div>
-                                    <div class="col-8">
-                                        <input type="text" class="form-control" name="" id="" value="ศิษย์เก่าที่ประสบความสำเร็จด้านวิชาชีพ">
-                                    </div>
-                                    <div class="col-2"> 
-                                        <div class="custom-control custom-switch fl">
-                                            <input type="checkbox" class="custom-control-input" id="customSwitch1" checked>
-                                            <label class="custom-control-label" for="customSwitch1"> </label>
-                                        </div>
-                                        <button type="button" class="btn btn-info btn-sm btn-flat">
-                                            <i class="fas fa-plus"></i>   เพิ่ม
-                                        </button>   
-                                    </div> 
-
-                                    <div class="col-12">&nbsp;</div>
-
-                                    <div class="col-12">
-                                        <div class="form-group row">
-                                            <div class="col-1">&nbsp;</div>
-                                            <div class="col-1">3.1 </div>
-                                            <div class="col-7">
-                                                <input type="text" class="form-control" name="" id="" value="ศิษย์เก่าที่ประสบความสำเร็จด้านวิชาชีพ">
-                                            </div>
-                                            <div class="col-2"> 
-                                                <div class="custom-control custom-switch fl">
-                                                    <input type="checkbox" class="custom-control-input" id="customSwitch1" checked>
-                                                    <label class="custom-control-label" for="customSwitch1"> </label>
-                                                </div>
-                                            </div> 
-                                        </div>
-                                        <div class="form-group row">
-                                            <div class="col-1">&nbsp;</div>
-                                            <div class="col-1">3.2 </div>
-                                            <div class="col-7">
-                                                <input type="text" class="form-control" name="" id="" value="ศิษย์เก่าที่ประสบความสำเร็จด้านวิชาชีพ">
-                                            </div>
-                                            <div class="col-2"> 
-                                                <div class="custom-control custom-switch fl">
-                                                    <input type="checkbox" class="custom-control-input" id="customSwitch1" checked>
-                                                    <label class="custom-control-label" for="customSwitch1"> </label>
-                                                </div>
-                                            </div> 
-                                        </div>
-                                    </div>
-                                </div>  
-
-
-                                <button type="button" class="btn btn-info   btn-flat">
-                                    <i class="fas fa-plus"></i>   เพิ่ม
-                                </button>   
-
-                            </form>
-                        </div>
-                    </div> 
-                    <div class="modal-footer">
-                        <div class="col-12 text-center">
-                            <button type="button" class="btn btn-success">ยืนยัน</button>
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">ยกเลิก</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
 
 
         <!-- jQuery -->
@@ -839,7 +699,6 @@
                     "bAutoWidth": true 
                 }); 
                 $( ".form-email" ).hide(); 
-                $( ".profess" ).hide(); 
             } );
 
             $('input[type=radio][name=rad]').change(function() {
@@ -850,16 +709,6 @@
                     $( ".form-email" ).hide();
                 }
             });  
-    
-            $('#award_type_name').on('change', function() {
-                if(this.value==1){
-                    $( ".profess" ).show(); 
-                }
-                else{
-                    $( ".profess" ).hide(); 
-                }
-            });
-
 
             $('input.date').datepicker({
                 clearBtn: true,
