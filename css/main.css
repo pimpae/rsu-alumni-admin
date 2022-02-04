@@ -30,6 +30,26 @@
   }  
 }
 
+.btn-pink{
+  color: #fff;
+  background-color: #EA4C92;
+  border-color: #EA4C92; 
+}
+.btn-pink:hover{
+  color: #fff;
+  background-color: #DE4892;
+  border-color: #DE4892;
+}
+.btn-pink-o{
+  color: #EA4C92;
+  background-color: #fff;
+  border-color: #EA4C92; 
+}
+.btn-pink-o:hover{
+  color: #fff;
+  background-color: #DE4892;
+  border-color: #DE4892;
+}
 a:hover{
   text-decoration: none;
 }
@@ -237,6 +257,11 @@ body{
 .pa-r{
   position: absolute;
   right: 0;
+}
+.pa-r2{
+  position: absolute;
+  right: 0;
+  margin-right: -25px
 }
 .bg-gal{
   position: relative;
